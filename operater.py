@@ -1,0 +1,12 @@
+a = float(input("Enter a value of a:"))
+b = float(input("Enter a value of b:"))
+sum, mul, sub, div, fdiv, mod, exp = a+b, a*b, a-b, a/b, a//b, a%b, a**b
+print("="*50)
+print("\t\t\tsum({},{})={}".format(a, b, sum))
+print("\t\t\tmul({},{})={}".format(a, b, mul))
+print("\t\t\tsub({},{})={}".format(a, b, sub))
+print("\t\t\tdiv({},{})={}".format(a, b, div))
+print("\t\t\tfdiv({},{})={}".format(a, b, fdiv))
+print("\t\t\tmod({},{})={}".format(a, b, mod))
+print("\t\t\texp({},{})={}".format(a, b, exp))
+print("="*50)
